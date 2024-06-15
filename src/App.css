@@ -27,6 +27,25 @@
 .App-link {
   color: #61dafb;
 }
+.nav2{
+  display: flex;
+  justify-content: space-around;
+}
+.fa-fw {
+  text-align: center;
+  width: 2.25em;
+}
+/* styles.css */
+.carousal-card {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  background-color:bisque;
+}
+
+.card img {
+  max-width: 100%; /* Ensure images don't cause overflow */
+  height: auto;
+}
+
 
 @keyframes App-logo-spin {
   from {
